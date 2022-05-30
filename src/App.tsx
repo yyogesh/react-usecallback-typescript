@@ -11,20 +11,21 @@ import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
-      <hr />
-      <Parent />
-      <hr />
-      <ParentOne />
-      <OptimizedParentOne>
+      {/* <ParentComponent />
+      <hr /> */}
+      {/* <Parent />
+      <hr /> */}
+      {/* <ParentOne /> */}
+      {/* <OptimizedParentOne>
         <ChildOne />
-      </OptimizedParentOne>
-      <hr />
+      </OptimizedParentOne> */}
+      <ParentComponent />
+      {/* <hr />
       Parent Two
-      <ParentTwo />
-      <hr />
+      <ParentTwo /> */}
+      {/* <hr />
       Parent Three
-      <ParentThree />
+      <ParentThree /> */}
     </div>
   );
 }
